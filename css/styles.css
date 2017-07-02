@@ -55,16 +55,21 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #a4aab0;
+    background-color: #9d9bad;
     padding-top: 1%;
     padding-bottom: 1%;
-    font-size: 19px;
+    font-size: 30px;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+    height: 20px;
+    font-family: 'Bree Serif', serif;
+    
     
 }
 
 .BaseBanner ul {
-    background-color: #a4aab0;
+    background-color: #9d9bad;
     justify-content: space-around;
     display: flex;
     padding: 0;
@@ -74,7 +79,13 @@ body {
     margin: 0;
 }
 
+.BaseBanner a:hover {
+    font-weight: bold;
+    font-size: 31px;
+}
 
-
+.BaseBanner {
+    background-color: #000000;
+}
 
 
