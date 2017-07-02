@@ -18,7 +18,7 @@ body {
 }
 
 .navbar li {
-     margin: 0px 20px 0px 20px; 
+    margin: 0px 20px 0px 20px; 
     background-color: #8f8e9c;
     padding: 15px;
     text-align: center;
@@ -39,3 +39,42 @@ body {
     font-weight: bold;
     color: white;
 }
+
+.BaseBanner img{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.BaseBanner li {
+    list-style: none;
+    
+}
+
+.BaseBanner a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #a4aab0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+
+.BaseBanner ul {
+    background-color: #a4aab0;
+    justify-content: space-around;
+    display: flex;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    margin: 0;
+}
+
+
+
+
+
